@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+.options_container{
+    display: flex;
+    width: 100%;
+   flex-direction: column;
+    height: fit-content;
+    
+}
+
+.option_box{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 10px;
+    /* background-color: white; */
+    color: rgba(255, 255, 255, 0.812);
+
+}
+
+.options{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.option_box h2{
+    margin-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+}
+
+.option_box input{
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.208);
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+ button{
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.067);
+    border-radius: 5px;
+    background-color: rgb(40, 40, 40);
+    color: rgba(255, 255, 255, 0.765);
+}
+
+.notifications_container{
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+
+}
